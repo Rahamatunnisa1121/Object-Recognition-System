@@ -4,27 +4,7 @@
 This project is an Object Recognition System that classifies different types of vegetables using a machine learning model. The dataset is organized into three main folders: `train`, `test`, and `validation`, each containing subfolders representing different vegetable classes.
 
 ## Dataset Structure
-/dataset/
-    ├── train/
-    │   ├── apples/
-    │   ├── bananas/
-    │   ├── carrots/
-    │   ├── tomatoes/
-    │   └── ... (other vegetable classes)
-    │
-    ├── test/
-    │   ├── apples/
-    │   ├── bananas/
-    │   ├── carrots/
-    │   ├── tomatoes/
-    │   └── ... (other vegetable classes)
-    │
-    ├── validation/
-    │   ├── apples/
-    │   ├── bananas/
-    │   ├── carrots/
-    │   ├── tomatoes/
-    │   └── ... (other vegetable classes)
+The dataset consists of three primary directories: train, test, and validation. Each of these directories contains subfolders named after different vegetable classes such as apples, bananas, carrots, and tomatoes. The train folder holds images used for model training, while the test folder contains images for evaluating the model's performance. The validation folder is used to fine-tune the model to prevent overfitting and improve generalization. This structured arrangement ensures an organized and efficient training process.
 
 ## Requirements
 - Python 3.x
