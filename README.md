@@ -1,31 +1,21 @@
-# Object Recognition System - Vegetable Dataset
+# COCO Object Recognition System
 
-## Overview
-This project is an Object Recognition System that classifies different types of vegetables using a machine learning model. The dataset is organized into three main folders: `train`, `test`, and `validation`, each containing subfolders representing different vegetable classes.
+## 📌 Overview
+This project implements an **object recognition system** using the **COCO dataset**, a large-scale dataset for object detection, segmentation, and captioning tasks. The system utilizes deep learning models to detect and classify objects in images.
 
-## Dataset Structure
-The dataset consists of three primary directories: train, test, and validation. Each of these directories contains subfolders named after different vegetable classes such as apples, bananas, carrots, and tomatoes. The train folder holds images used for model training, while the test folder contains images for evaluating the model's performance. The validation folder is used to fine-tune the model to prevent overfitting and improve generalization. This structured arrangement ensures an organized and efficient training process.
+## 📂 Dataset Structure
+The dataset follows the **COCO format** and consists of:
+- **Annotations Folder** (`.json` files): Contains metadata like bounding boxes, segmentation masks, and object categories.
+- **Image Folder**: Stores images corresponding to the annotations.
+- **Categories**: Different object classes labeled with unique category IDs.
+- **Annotations**: Each image can contain multiple annotated objects, leading to **more annotations than images**.
 
-## Requirements
-- Python 3.x
-- TensorFlow/Keras
-- OpenCV
-- NumPy
-- Matplotlib
-- Scikit-learn
+---
 
-## Model Training
-- Load and preprocess images.
-- Split data into training, testing, and validation sets.
-- Train a Convolutional Neural Network (CNN) or another suitable model.
-- Evaluate model performance.
+## ⚙️ Installation & Requirements  
 
-## Evaluation
-- Assess model accuracy and loss on the test dataset.
+### 🛠 Required Libraries:
+To run this project, you need the following dependencies:
 
-## Usage
-- Use the trained model to classify new vegetable images.
-
-## Conclusion
-This system efficiently classifies vegetable images into predefined categories. The dataset structure enables easy expansion with additional classes. Future improvements can include data augmentation, transfer learning, and hyperparameter tuning.
+pip install tensorflow torch torchvision opencv-python numpy matplotlib seaborn pycocotools scikit-learn pillow
 
