@@ -19,3 +19,4 @@ To run this project, you need the following dependencies:
 
 pip install tensorflow torch torchvision opencv-python numpy matplotlib seaborn pycocotools scikit-learn pillow
 
+![Yolo Inference](https://raw.githubusercontent.com/Rahamatunnisa1121/Object-Recognition-System/main/yolo_test.png)
