@@ -2,6 +2,9 @@
 
 ## 📌 Overview
 This project implements an **object recognition system** using the **COCO dataset**, a large-scale dataset for object detection, segmentation, and captioning tasks. The system utilizes deep learning models to detect and classify objects in images.
+## Usage
+To run the segmentation model, use the following command:
+### `streamlit run app.py`
 
 ## Segmentation
 This project extends object recognition by incorporating instance segmentation, allowing precise pixel-wise segmentation of objects in images. Using deep learning models trained on the COCO dataset, the system not only detects objects but also generates segmentation masks to differentiate between overlapping objects and background areas.
