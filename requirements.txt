@@ -1,6 +1,6 @@
 streamlit
 ultralytics
-opencv-python-headless
+opencv-python-headless==4.8.0.74
 numpy
 pandas
 Pillow
@@ -11,3 +11,4 @@ torch
 torchvision
 torchaudio
 pyyaml
+pyglet
